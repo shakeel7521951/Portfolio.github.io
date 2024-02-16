@@ -1,0 +1,431 @@
+.about-container{
+    width: 100%;
+    background-color:rgb(246, 252, 252);
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin:20px auto;
+}
+.about h1{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 34px;
+    color:blue;
+}
+.name-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.left-of-about{
+    text-align: left;
+    margin-bottom: 20px;
+    width: 50%;
+}
+.left-of-about h2{
+    font-size: 26px;
+    margin-bottom: 20px;
+    color:rgb(0, 208, 255);
+    font-weight: 800;
+}
+.left-of-about ul li{
+    font-size: 18px;
+    list-style: none;
+    font-style: italic;
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.left-of-about ul li span{
+    font-size: 20px;
+    font-weight: 600;
+}
+.right-of-about{
+    display: flex;
+    align-items:flex-end;
+    margin-top: 20px;
+    width: 50%;
+}
+.right-of-about img{
+    margin-left: 50px;
+    margin-bottom: 10px;
+    width: 180px;
+    height: 180px;
+    border: 1px solid skyblue;
+    border-radius: 50%;
+}
+
+.objective{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    justify-content: flex-start;
+}
+.objective h1{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    text-decoration: underline;
+}
+.objective p{
+    font-style: italic;
+    font-size: 18px;
+    text-align: justify;
+}
+.personal-info{
+    width: 100%;
+    margin-top: 20px;
+}
+.personal-info h1{
+    text-align: left;
+    margin-bottom: -10px;
+    text-decoration: underline;
+}
+
+.info{
+    width: 60%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-style: normal;
+}
+.left{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 2;
+    width: 50%;
+    text-align: left;
+}
+.left ul li{
+    list-style: none;
+    font-style: normal;
+}
+.right {
+    list-style: none;
+    font-size: 18px;
+    text-align: left;
+    width: 50%;
+}
+.right ul li{
+    list-style: none;
+    line-height: 2.3;
+}
+
+.education{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.main-column li{
+    background-color: aqua !important;
+    font-size: 20px;
+}
+.education h1{
+    text-align: left;
+    text-decoration: underline;
+}
+.education ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.education ul li{
+    background-color: antiquewhite;
+    list-style: none;
+    padding: 20px 10px;
+    width: 150px;
+    border: 1px solid skyblue;
+}
+.uni{
+    width: 240px !important;
+}
+
+.experience{
+    width: 100%;
+    margin: 30px auto;
+}
+.experience h1{
+    text-align: left;
+    text-decoration: underline;
+}
+.experience ul li{
+    list-style: none;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.5;
+    font-style: italic;
+    text-align: justify;
+}
+
+@media all and (max-width:760px) {
+    .about-container{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .about h1{
+        font-size: 26px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .name-part{
+        width: 95%;
+    }
+    .left-of-about h2{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .left-of-about ul li{
+        font-size: 14px;
+    }
+    .left-of-about ul li span{
+        font-size: 18px;
+    }
+    .right-of-about img{
+        width: 140px;
+        height: 140px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .objective h1{
+        font-size: 22px;
+    }
+    .objective p{
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .info{
+        width: 90%;
+    }
+    .left{
+        font-size: 18px;
+        width: 40%;
+    }
+    .right{
+        font-size: 16px;
+        width: 60%;
+    }
+    .main-column li{
+        font-size: 14px;
+        padding: 10px 0;
+    }
+    .education ul li{
+        width: 120px;
+        padding: 10px 0;
+    }
+    .experience{
+        width: 90%;
+    }
+    .experience ul li{
+        font-size: 16px;
+    }
+}
+
+@media all and (max-width:420px) {
+    .about-container{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .about h1{
+        font-size: 22px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .name-part{
+        width: 95%;
+    }
+    .left-of-about h2{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .left-of-about ul li{
+        font-size: 14px;
+    }
+    .left-of-about ul li span{
+        font-size: 18px;
+    }
+    .right-of-about img{
+        width: 140px;
+        height: 140px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .objective h1{
+        font-size: 20px;
+    }
+    .objective p{
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .info{
+        width: 90%;
+    }
+    .left{
+        font-size: 16px;
+        width: 40%;
+    }
+    .right{
+        font-size: 14px;
+        width: 60%;
+    }
+    .main-column li{
+        font-size: 13px;
+        padding: 10px 0;
+    }
+    .education ul li{
+        width: 100px;
+        padding: 10px 0;
+    }
+    .experience{
+        width: 90%;
+    }
+    .experience ul li{
+        font-size: 14px;
+    }
+}
+@media all and (max-width:360px) {
+    .about-container{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .about h1{
+        font-size: 22px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .name-part{
+        width: 95%;
+    }
+    .left-of-about h2{
+        font-size: 18px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    .left-of-about ul li{
+        font-size: 14px;
+    }
+    .left-of-about ul li span{
+        font-size: 18px;
+    }
+    .right-of-about img{
+        width: 110px;
+        height: 110px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .objective h1{
+        font-size: 22px;
+    }
+    .objective p{
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .info{
+        width: 90%;
+    }
+    .left{
+        font-size: 14px;
+        width: 40%;
+    }
+    .right{
+        font-size: 12px;
+        width: 60%;
+    }
+    .main-column li{
+        font-size: 12px;
+        padding: 5px 0;
+    }
+    .education ul li{
+        width: 90px;
+        font-size: 11px;
+        padding: 10px 0;
+    }
+    .experience{
+        width: 90%;
+    }
+    .experience ul li{
+        font-size: 12px;
+    }
+}
+@media all and (max-width:260px) {
+    .about-container{
+        width: 100%;
+    }
+    .about{
+        width: 100%;
+    }
+    .about h1{
+        font-size: 18px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+    .name-part{
+        width: 95%;
+    }
+    .left-of-about h2{
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+    .left-of-about ul li{
+        font-size: 11px;
+    }
+    .left-of-about ul li span{
+        font-size: 14px;
+    }
+    .right-of-about img{
+        width: 80px;
+        height: 80px;
+        margin-left: 20px;
+        margin-bottom: 10px;
+    }
+    .objective h1{
+        font-size: 14px;
+    }
+    .objective p{
+        font-size: 14px;
+        padding: 0 20px;
+    }
+    .info{
+        width: 90%;
+    }
+    .left{
+        font-size: 12px;
+        width: 40%;
+    }
+    .right{
+        font-size: 10px;
+        width: 60%;
+    }
+    .main-column li{
+        font-size: 11px;
+        padding: 5px 0;
+    }
+    .education ul li{
+        width: 90px;
+        font-size: 10px;
+        padding: 10px 0;
+    }
+    .experience{
+        width: 90%;
+    }
+    .experience ul li{
+        font-size: 11px;
+    }
+}

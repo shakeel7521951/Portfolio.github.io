@@ -1,0 +1,371 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.Main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: rgb(201, 236, 249);
+}
+.home-container {
+    display: flex;
+    flex-direction: row; 
+    width: 80%;
+    margin: auto; 
+    padding: 20px;
+    min-height: 82vh;
+}
+
+.left-of-home {
+    width: 60%;
+    align-items: flex-start;
+    text-align: center;
+    justify-content: flex-start;
+    margin-top: 30px;
+}
+
+.left-of-home h1{
+    font-size: 32px;
+    color:brown;
+    margin-bottom: 5px;
+    margin-top: 25px;
+}
+.left-of-home p{
+    font-style: italic;
+    margin-top: 10px;
+    font-size: 24px;
+    word-spacing: 1.5px;
+    line-height: 1.5;
+    color:black;
+    text-align: justify;
+}
+
+.info-btn {
+    display: inline-block; 
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px;
+    outline: none;
+    width: 190px;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: white;
+    background-color: brown;
+}
+.info-btn:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+
+.right-of-home {
+    width: 50%;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.right-of-home img{
+    width: 105px;
+    margin-top: 30px;
+}
+
+/*  ............ Skills ........... */
+
+.skills-container{
+    background-color: #e3f5f6;
+    width: 100%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.skills{
+    width: 90%;
+}
+.skills h1{
+    margin-top: 50px;
+    font-size: 32px;
+    color:brown;
+}
+.skills p{
+    font-size: 20px;
+    margin-bottom: 30px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+}
+.card{
+    width: 29%;
+    border-radius: 10px;
+    box-shadow: -2px 2px 14px rgba(0,0,0,0.5);
+    cursor: pointer;
+    margin: 20px;
+}
+.card img{
+    margin-top: 30px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 1px solid skyblue;
+}
+.card h2{
+    font-size: 24px;
+}
+.card h3{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: justify;
+    padding: 10px 20px;
+}
+
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.6s;
+    
+}
+.btn{
+    width: 240px;
+    border-radius: 10px;
+    padding:20px 10px;
+    font-size: 22px;
+    outline: none;
+    border:1px solid skyblue;
+    margin:40px 0;
+    background-color: rgb(61, 158, 129);
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+/* Projects */
+
+.projects-container{
+    width: 100%;
+    background-color: rgb(234, 229, 221) ;
+}
+.projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+}
+.projects h1{
+    margin: 40px 20px 20px;
+    font-weight: 700;
+    font-size: 34px;
+    color:brown;
+}
+.projects p{
+    text-align: justify;
+    margin-bottom: 40px;
+    font-style: italic;
+    font-size: 17px;
+}
+.projects-detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+.projects-detail h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+.projects-detail ul{
+    list-style: none;
+    text-align: left;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.projects-detail ul li{
+    line-height: 2;
+    font-size: 19px;
+    text-align: justify;
+}
+
+/* Message */
+.message-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(238, 255, 223);
+}
+.message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+.message h1{
+    margin: 30px 0;
+    color:brown;
+}
+.message div{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    width: 100%;
+}
+.message div label{
+    font-size: 20px;
+    margin-left: 19%; ;
+}
+.message div input{
+    width: 60%;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid skyblue;
+    outline: none;
+    margin: auto;
+    border-radius: 5px;
+}
+.message textarea{
+    width: 60%;
+    padding: 10px;
+    min-height: 90px;
+    border: 1px solid skyblue;
+    outline: none;
+    margin: auto;
+    border-radius: 5px;
+    font-size: 18px;
+}
+.error-message{
+    color:red;
+    margin-left: 20%;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+@media all and (max-width:920px) {
+    .Main{
+        width: 100%;
+    }
+    .home-container , .message , .message div input , .message textarea{
+        width:90%;
+    }
+    .left-of-home h1 , .skills h1 , .projects h1{
+        font-size: 26px;
+    }
+    .left-of-home p, .skills p , .projects-detail h3 , .projects-detail ul li{
+        font-size: 20px;
+        line-height: normal;
+    }
+    .info-btn {
+        width: 120px;
+        font-size: 18px;
+    }
+    .right-of-home img{
+        width: 105px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    .skills{
+        width: 90%;
+        margin: auto;
+    }
+    .card {
+        width: 44%;
+        margin: 20px 20px;
+    }
+    .btn{
+        width: 170px;
+        font-size: 18px;
+        margin:20px 0;
+    }
+    .projects{
+        width: 90%;
+    }
+    .message{
+        width: 70%;
+    }
+    .message div label{
+        margin-left: 10px;
+    }
+}
+@media all and (max-width:840px) {
+    .skills{
+        width: 90%;
+        margin: auto;
+    }
+    .card {
+        width: 43%;
+        margin: 20px 20px;
+    }
+    .message{
+        width: 70%;
+    } 
+    .right-of-home img{
+        width: 80px;
+        margin-top: 40px;
+        margin-left: 20px;
+    }
+}
+@media all and (max-width:720px) {
+    .skills{
+        width: 90%;
+        margin: auto;
+    }
+    .card {
+        width: 80%;
+        margin: 20px 20px;
+    }
+    .message{
+        width: 70%;
+    } 
+}
+@media all and (max-width:520px) {
+    .Main{
+        width: 100%;
+    }
+    .home-container , .message , .message div input , .message textarea{
+        width:90%;
+    }
+    .left-of-home h1 , .skills h1 , .projects h1{
+        font-size: 22px;
+    }
+    .left-of-home p, .skills p , .projects-detail h3 , .projects-detail ul li{
+        font-size: 18px;
+        line-height: normal;
+    }
+    .info-btn {
+        width: 120px;
+        font-size: 18px;
+    }
+    .right-of-home img{
+        width: 105px;
+        margin-top: 90px;
+        margin-left: 20px;
+    }
+    .skills{
+        width: 90%;
+        margin: auto;
+    }
+    .card {
+        width: 100%;
+        margin: 20px 0;
+    }
+    .btn{
+        width: 170px;
+        font-size: 18px;
+        margin:20px 0;
+    }
+    .projects{
+        width: 90%;
+    }
+    .message div label{
+        margin-left: 10px;
+    }
+}

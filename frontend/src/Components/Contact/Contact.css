@@ -1,0 +1,183 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contact-container{
+    width: 100%;
+    background:rgb(212, 245, 179);
+}
+.contact{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.contact h1{
+    color: brown;
+    font-size: 34px;
+    margin-top: 30px;
+}
+.contact p{
+    font-size: 20px;
+    font-style: italic;
+    margin: 10px 0;
+}
+
+.contact-form{
+    display: block;
+    width: 40%;
+    padding: 20px 20px;
+    border: 1px solid skyblue;
+    box-shadow: -2px 2px 10px skyblue;
+    margin: 20px;
+    background:rgb(223, 239, 207);
+    border-radius: 10px;
+}
+.contact-form h2{
+    font-size: 26px;
+    font-weight: 600;
+    color: blue;
+    margin-bottom: 20px;
+}
+
+.contact div{
+   display: flex;
+   flex-direction: column;
+}
+.contact label{
+    font-size: 20px;
+    text-align: left;
+}
+.contact input {
+    padding: 10px;
+    width: 97%;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid skyblue;
+}
+.contact textarea{
+    padding: 10px;
+    width: 97%;
+    border-radius: 5px;
+    font-size: 18px;
+    outline: none;
+    border: 1px solid skyblue;
+    min-height: 70px;
+    word-spacing: normal;
+}
+.contact button{
+    width: 140px;
+    align-self: flex-end;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: skyblue;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid skyblue;
+    margin-top: 20px;
+}
+.contact button:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
+.contact-information{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.contact-information h1{
+    text-align: left;
+}
+.contact-information p{
+    text-align: justify;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 30px;
+}
+.contact-information h2{
+    text-align: left;
+    font-size: 26px;
+    color: brown;
+    font-weight: 700;
+    margin: 20px;
+}
+.contact-information ul li{
+    list-style: none;
+    text-align: left;
+    margin-left: 50px;
+    line-height: 2;
+    font-weight: 600;
+    font-size: 20px;
+}
+.contact-information ul li span{
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 20px;
+    text-align: justify;
+}
+.errorMessage{
+    color: red;
+    text-align: left;
+    margin-bottom: 10px;
+}
+@media all and (max-width:860px) {
+    .contact{
+        width: 90%;
+    }
+    .contact h1{
+        font-size: 24px;
+        margin: 20px 30px 0;
+    }
+    .contact-form{
+        width: 70%;
+    }
+    .contact-form h2{
+        font-size:20px;
+    }
+    .contact input , .contact textarea{
+        width: 95%;
+        font-size: 16px;
+    }
+    .contact-information p{
+        font-size: 18px;
+        width: 85%;
+    }
+    .contact-information ul li{
+        font-size: 18px;
+    }
+    .contact-information ul li span{
+        font-size: 16px;
+    }
+}
+@media all and (max-width:420px) {
+    .contact{
+        width: 95%;
+    }
+    .contact h1{
+        font-size: 24px;
+        margin: 20px 30px 0;
+    }
+    .contact-form{
+        width: 90%;
+    }
+    .contact-form h2{
+        font-size:20px;
+    }
+    .contact input , .contact textarea{
+        width: 95%;
+        font-size: 16px;
+    }
+    .contact-information p{
+        font-size: 18px;
+        width: 85%;
+    }
+    .contact-information ul li{
+        font-size: 18px;
+    }
+    .contact-information ul li span{
+        font-size: 16px;
+    }
+}
